@@ -11,6 +11,10 @@ pt-BR:
         one: Quarto
         other: Quartos
     attributes:
+      booking:
+        name: Nome
+        start_date: Data de Inicio
+        end_date: Data de Termino
       inn_owner:
         email: 'E-mail'
         first_name: 'Nome'

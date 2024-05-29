@@ -1,0 +1,17 @@
+<%= form_with(model:[@inn, @booking]) do |form| %>
+  <div>
+    <%= form.label :name, class:"label" %>
+    <%= form.text_field :name , class:"input" %>
+  </div>
+  <div>
+    <%= form.label :start_date, class: "label" %>
+    <%= form.date_field :start_date, class: "input" %>
+  </div>
+  <div>
+    <%= form.label :end_date, class: "label" %>
+    <%= form.date_field :end_date, class: "input" %>
+  </div>
+  <div>
+    <%= form.submit 'Criar Reserva' %>
+  </div>
+<% end %>
