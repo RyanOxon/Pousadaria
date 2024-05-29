@@ -19,4 +19,5 @@ Rails.application.routes.draw do
 
     resources :inn_rooms, only: [:show, :edit, :update]
   end
+  
 end
